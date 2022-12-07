@@ -1,0 +1,13 @@
+{
+  "name": "@netail/linting-config",
+  "version": "1.0.0",
+  "description": "My linting configs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github:Netail/linting-config.git"
+  },
+  "author": "Netail <maikel.van.dort@gmail.com>",
+  "peerDependencies": {
+  }
+}
