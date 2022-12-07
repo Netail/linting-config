@@ -1,2 +1,5 @@
-# linting-config
-My linting configs
+# Linting Config
+
+Supports:
+
+- Prettier

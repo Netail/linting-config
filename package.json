@@ -9,5 +9,6 @@
   },
   "author": "Netail <maikel.van.dort@gmail.com>",
   "peerDependencies": {
+    "prettier": "^2.8.1"
   }
 }
