@@ -2,4 +2,5 @@
 
 Supports:
 
+- ESLint
 - Prettier
