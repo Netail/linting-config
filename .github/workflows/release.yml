@@ -32,6 +32,8 @@ jobs:
         with:
           version: yarn changeset:version
           publish: yarn changeset:publish
+          title: 'New release'
+          commit: 'chore: release version'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
