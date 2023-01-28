@@ -10,8 +10,13 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com",
+    "directory": "configs"
   },
+  "files": [
+    "configs",
+    "CHANGELOG.md"
+  ],
   "scripts": {
     "changeset:version": "changeset version",
     "changeset:publish": "changeset publish"
@@ -22,6 +27,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@changesets/cli": "^2.26.0"
+    "@changesets/cli": "^2.26.0",
+    "copyfiles": "^2.4.1"
   }
 }
