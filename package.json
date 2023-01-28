@@ -10,8 +10,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com",
-    "directory": "configs"
+    "registry": "https://npm.pkg.github.com"
   },
   "files": [
     "configs",
