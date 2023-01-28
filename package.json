@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "My linting configs",
   "license": "MIT",
+  "author": "Netail <maikel.van.dort@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com:Netail/linting-config.git"
@@ -11,7 +12,10 @@
     "access": "public",
     "registry": "https://npm.pkg.github.com"
   },
-  "author": "Netail <maikel.van.dort@gmail.com>",
+  "scripts": {
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
+  },
   "peerDependencies": {
     "eslint": "^8.30.0",
     "prettier": "^2.8.1"
