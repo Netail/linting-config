@@ -32,6 +32,7 @@ jobs:
           publish: yarn changeset:publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Push Tags
         run: git push --follow-tags
