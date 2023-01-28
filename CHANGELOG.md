@@ -1,5 +1,11 @@
 # @netail/linting-config
 
+## 1.1.3
+
+### Patch Changes
+
+- 51bc688: Change singleAttributePerLine to false
+
 ## 1.1.2
 
 ### Patch Changes
