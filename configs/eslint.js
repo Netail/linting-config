@@ -6,19 +6,18 @@ module.exports = {
     parser: '@typescript-eslint/parser',
     plugins: [
         '@typescript-eslint',
+        'prettier'
     ],
     rules: {
-        'indent': ['error', 4],
+        'indent': ['error', 2],
         'linebreak-style': ['error', 'unix'],
         'quotes': ['error', 'single'],
-        'eslint-comments/no-use': 'off',
-        'import/no-namespace': 'off',
-        'no-unused-vars': 'off',
         'camelcase': 'off',
         'no-shadow': 'off',
+        '@typescript-eslint/no-shadow': 'error',
         'semi': ['error', 'always'],
-        'prettier/prettier': 'error',
         'jsx-quotes': ['error', 'prefer-single'],
         'no-duplicate-imports': 'error',
+        'prettier/prettier': 'error',
     },
 }
