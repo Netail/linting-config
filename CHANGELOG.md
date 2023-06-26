@@ -1,5 +1,11 @@
 # @netail/linting-config
 
+## 1.2.0
+
+### Minor Changes
+
+- c7a1a51: Updated dependencies & corrected eslint config
+
 ## 1.1.3
 
 ### Patch Changes
